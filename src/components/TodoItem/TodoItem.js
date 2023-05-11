@@ -25,8 +25,8 @@ export const TodoItem = ({
   return (
     <Root>
       <StyledCheckbox
-        value={isChecked}
-        onClick={onToggleTodoItem}
+        checked={isChecked}
+        onChange={onToggleTodoItem}
         type="checkbox"
       />
       <TodoTypo onClick={onClickTodoTypo}>{todoValue}</TodoTypo>
