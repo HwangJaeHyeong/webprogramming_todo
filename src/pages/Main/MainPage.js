@@ -14,7 +14,6 @@ export const MainPage = () => {
   const onCreateTodoItem = () => {
     setTodoListData((prev) => prev.concat({ id: count, title: inputValue }));
     setInputValue("");
-
     count++;
   };
   return (
