@@ -8,6 +8,8 @@ export const Root = styled.div`
 
 export const StyledCheckbox = styled.input``;
 
-export const TodoTypo = styled.p``;
+export const TodoTypo = styled.p`
+  margin: 0;
+`;
 
 export const DeleteButton = styled.button``;
